@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newcss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow13.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+<link rel="shortcut-icon" href="" >
+    
+</head>
+<body>
+    <section class="shg-header-container " data-emptytext="Sledgehammer Header">
+        <div class="inner-container">
+          <div class="desktop-header-container">
+            <div class="desktop-header">
+              <div class="nav-left">
+                <div class="shg-logo">
+                  <div class="logo">
+                    <a href="index.html"><img src="logo.png" alt="Sledgehammer Black Icon"/></a>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-right">
+                <div class="top-shg-nav">
+                  <ul>
+                    <li class="nav-item norm-link">
+                     
+      
+                    
+                          <a href="/home">
+                            <p>HOME</p>
+                          </a>
+                      
+                      
+      
+                    </li>
+                  
+                    <li class="nav-item norm-link">
+                      
+      
+                      
+                          <a href="/life">
+                            <p>About us</p>
+                          </a>
+                      
+                      
+      
+                    </li>
+                  
+                    <li class="nav-item norm-link">
+                      
+      
+                      
+                      
+                          <a href="https://www.reddit.com/r/WWII/" target='_blank'>
+                            <p>Community</p>
+                          </a>
+                      
+      
+                    </li>
+                  
+                    <li class="nav-item norm-link">
+                     
+      
+                      
+                          <a href="/blog">
+                            <p>Events</p>
+                          </a>
+                      
+                      
+      
+                    </li>
+                  
+                    <li class="nav-item norm-link">
+                      
+      
+                      
+                      
+                          <a href="https://careers.sledgehammergames.com" target='_blank'>
+                            <p>Membership</p>
+                          </a>
+                      
+      
+                    </li>
+                  
+               
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="social-container">
+              <div class="social-btn-container desktop">
+                <div class="sub-desc-container desktop">FOLLOW US ON SOCIAL</div>
+                <div class="icon-container">
+                  <a href="https://www.facebook.com/sledgehammergames/" target="_blank"><img class="fb-icon" src="fb.png" alt="Facebook Icon"/></a>
+                </div>
+                <div class="icon-container">
+                  <a href="https://twitter.com/SHGames" target="_blank"><img class="tw-icon" src="insta.png" alt="Twitter Icon"/></a>
+                </div>
+                <div class="icon-container">
+                    <a href="https://www.linkedin.com/company/sledgehammer-games" target="_blank"><img class="tw-icon" src="linkedin-white-transparent-icon.png" alt="LinkedIn Icon"/></a>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="mobile-header">
+            <div class="mobile-top-nav">
+              <div class="mobile-shg-logo">
+                <a href="/home"><img src="/content/dam/atvi/sledgehammer/shg-touchui/common/sledgehammer-logo-black.png" alt="Sledgehammer"/></a>
+              </div>
+      
+              <div class="mobile-burger anim">
+                <div class="bar one">
+                  <p></p>
+                </div>
+                <div class="bar two">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="mobile-menu">
+              <div class="mobile-shg-menu-container">
+                <div class="mobile-shg-menu">
+                  <ul>
+                    <li class="nav-item norm-link">
+                      <p><a href="/home">HOME</a></p>
+                    </li>
+                  
+                    <li class="nav-item norm-link">
+                      <p><a href="/life">LIFE@SHG</a></p>
+                    </li>
+                  
+                    <li class="nav-item norm-link">
+                      <p><a href="https://www.reddit.com/r/WWII/">COMMUNITY</a></p>
+                    </li>
+                  
+                    <li class="nav-item norm-link">
+                      <p><a href="/blog">BLOG</a></p>
+                    </li>
+                  
+                    <li class="nav-item norm-link">
+                      <p><a href="https://careers.sledgehammergames.com">CAREERS</a></p>
+                    </li>
+                  
+                    <li class="nav-item norm-link">
+                      <p><a href="https://support.activision.com/pkb_Home?clickedOn=Call_of_Duty_WWII">SUPPORT</a></p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section></div>
+      
+          
+      </div>
+      </div>
+      
+          
+      </div>
+      
+      </section>
+      
+      <h1 class="title">Mozilla Student Club</h1>
+      <section class="moz">
+          <div class="moz1">
+              <img src="fox.jpg">
+          </div>
+      </section>
+      <section class="s2">
+          <h1 class="heading">Mission</h1>
+        <div class="grid-cont">
+            <img src="Studentfox.png">
+            <img src="text.png">
+        </div>
+        
+      </section>
+    
+            
+            <section class="events text-gray-700 body-font">
+              
+            </section>
+           
+      <section class="team">
+        <section>
+            <h1 class="ourteam">our team</h1>
+            <div class="team-row">
+                <div class="member">
+                    <img src="kashish.jpg" alt="">
+                    <h2>Kashish Sharma</h2>
+                    <p>Head <br>Techinal Head</p>
+                </div>
+                <div class="member">
+                    <img src="kanak.jpg" alt="">
+                    <h2>Kanak Agarwal</h2>
+                    <p>Co-Head</p>
+                </div>
+                <div class="member">
+                    <img src="Ritika.jpeg" alt="">
+                    <h2>Ritika Ranjan</h2>
+                    <p>Social Media Head <br>Techinal Leader</p>
+                </div>
+                <div class="break">
+
+                </div>
+                <div class="member">
+                    <img src="yashika.jpg" alt="">
+                    <h2>Yashika Rawat</h2>
+                    <p>Content Head</p>
+                </div>
+                
+                <div class="member">
+                    <img src="Avni.jpg" alt="">
+                    <h2>Avni Agarwal</h2>
+                    <p>Managment Head</p>
+                </div>
+                <div class="member">
+                    <img src="urvashi.jpg" alt="">
+                    <h2>Urvashi Sharma</h2>
+                    <p>Marketing and Promotional Head</p>
+                </div>
+            </div>
+        </section>
+    </section>
+      <!-- Site footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Mozilla Student Club <i>heyy!! </i> aabbccdddeeefffffff</p>
+            </div>
+    
+    
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+           <a href="#">MosillaStudentClub</a>.
+              </p>
+            </div>
+    
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-github"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
